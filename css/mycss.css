@@ -1,0 +1,534 @@
+.swiper-container .slide1{
+	background:url(../img/slide_01.png) no-repeat;
+	
+}
+.swiper-container .slide2{
+	background:url(../img/page_02.png) no-repeat;
+	
+}
+.swiper-container .slide3{
+	background:url(../img/page_03_bg.png) no-repeat;
+	
+}
+.swiper-container .slide4{
+	background:url(../img/page_04_bg.png) no-repeat;
+	
+}
+.swiper-container .slide5{
+	background:url(../img/page_05_bg.png) no-repeat;
+	
+}
+/*============右上角音乐部分============*/
+#wrap{
+	width: 100%;
+}
+.swiper-container{
+	position: relative;
+}
+.swiper-container .musics{
+    width: 12.5%;
+    height: 7.05%;
+    position: absolute;
+    right: 5%;
+    top: 3%;
+    z-index: 100;
+}
+#music .music_fly{
+    width: 125%;
+    height: 125%;
+    position: absolute;
+    top: -23%;
+    right: -16px;
+    background: url(../img/music_fly.gif) no-repeat center center;
+    background-size: 50px;
+}
+#music .music_fly_stop{
+    width: 125%;
+    height: 125%;
+    position: absolute;
+    top: -23%;
+    right: -16px;
+    background: none;
+}
+#music .music_rotate_stop{
+    width: 61%;
+    height: 61%;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    background: url(../img/music.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+#music .music_rotate{
+    width: 61%;
+    height: 61%;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    background: url(../img/music.png) no-repeat center center;
+    background-size: 100% 100%;
+	
+	-webkit-animation: music 1.2s linear infinite;
+	-o-animation: music 1.2s linear infinite;
+	animation: music 1.2s linear infinite;
+}
+@-webkit-keyframes music{
+	from{-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);}
+	to{-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	transform: rotate(360deg);}
+}
+.swiper-wrapper .swiper-slide{
+	background-size:cover ;
+	/*position: relative;*/
+}
+
+/*=================页面底部的向上箭头=================*/
+/*#tops{
+	background: url(../img/top2.png) no-repeat;
+	width: 1rem;
+	height: 1rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}*/
+.swiper-slide:after{
+     content: " ";
+    position: absolute;
+    width: 13%;
+    height: 4%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 10%;
+	background: url(../img/top2.png) no-repeat;
+	background-size:100% 100%;
+	-webkit-animation: tipAfterTop 1.5s ease-in-out infinite;
+	-moz-animation: tipAfterTop 1.5s ease-in-out infinite;
+	-ms-animation: tipAfterTop 1.5s ease-in-out infinite;
+	-o-animation: tipAfterTop 1.5s ease-in-out infinite;
+	animation: tipAfterTop 1.5s ease-in-out infinite;
+}
+@-webkit-keyframes tipAfterTop{
+	from{
+		bottom: 3%;
+	}
+	to{
+		bottom: 7%;
+		opacity: 0;
+	}
+}
+
+
+
+
+
+/*=========第一页的相框=========*/
+.slide1 .page01_mk01{
+    width: 62%;
+    height: 25%;
+    position: absolute;
+    left: 19%;
+    top: 32%;
+
+}
+
+.slide1 .page01_mk01 img{
+	width: 100%;
+	height: 100%;
+}
+/*相框中间的细圈*/
+.slide1 .page01_mk02{
+    width: 28%;
+    height: 16%;
+    position: absolute;
+    left: 37%;
+    top: 37%;
+}
+.slide1 .page01_mk02 img{
+	width: 100%;
+	height: 100%;
+}
+/*中间的文字*/
+.slide1 .page01_mk03{
+	width: 63%;
+    height: 5%;
+    position: absolute;
+    left: 18%;
+    top: 60%;
+	
+	
+}
+.slide1 .page01_mk03 b{
+	color: white;
+	font-family: "微软雅黑";
+    font-size: 120%;
+}
+/*有下角的边框*/
+.slide1 .page01_mk04{
+    width: 21%;
+    height: 14%;
+    position: absolute;
+    left: 73%;
+    top: 78%;
+}
+/*有下角的2015*/
+.slide1 .page01_mk05{
+    width: 17%;
+    height: 11%;
+    position: absolute;
+    left: 75%;
+    top: 79.5%;
+}
+
+/*有下角的日期*/
+.slide1 .page01_mk06{
+    width: 13%;
+    height: 3%;
+    position: absolute;
+    left: 76.8%;
+    top: 85%;
+}
+.slide1 .page01_mk06 b{
+	font-family: "微软雅黑";
+    font-size: 88%;
+}
+/*=====================微信场景2==============================*/
+.slide2 .page_02{
+/*	width: 3.75rem;
+	height: 5.625rem;
+	margin-left: -1.875rem;
+	margin-top: -2.8125rem;*/
+
+}
+/*中间的图片*/
+.slide2 .page02_mk01{
+    width: 87%;
+    height: 73%;
+    position: absolute;
+    left: 8%;
+    top: 14%;
+}
+/*中间的白色小蒙层*/
+.slide2 .page02_mk02{
+    width: 48%;
+    height: 38%;
+    position: absolute;
+    left: 26%;
+    top: 8%;
+}
+/*中间的小图片背景（四个圆圈）*/
+.slide2 .page02_mk03{
+    width: 38%;
+    height: 21%;
+    position: absolute;
+    left: 31%;
+    top: 19.5%;
+}
+/*中间圆圆的小图片*/
+.slide2 .page02_mk04{
+    width: 28%;
+    height: 17%;
+    position: absolute;
+    left: 36%;
+    top: 21.5%;
+}
+/*上面的文字*/
+.slide2 .page02_mk05{
+    width: 37%;
+    height: 5%;
+    position: absolute;
+    left: 31%;
+    top: 9%;
+}
+.slide2 .page02_mk05 b{
+	color: black;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 88%;
+}
+/*中间的文字*/
+.slide2 .page02_mk06{
+    width: 37%;
+    height: 5%;
+    position: absolute;
+    left: 31%;
+    top: 15%;
+}
+.slide2 .page02_mk06 b{
+    color: gray;
+	font-family: "微软雅黑";
+    font-size: 88%;
+}
+/*2015数字*/
+.slide2 .page02_mk07{
+    width: 37%;
+    height: 5%;
+    position: absolute;
+    left: 31%;
+    top: 41.5%;
+}
+.slide2 .page02_mk07 b{
+    color: black;
+    font-family: "微软雅黑";
+    font-size: 88%;
+}
+/*=====================微信场景3==============================*/
+/*上左图片*/
+.slide3 .page03_mk01{
+    width: 29.1%;
+    height: 23.6%;
+    position: absolute;
+    left: 4%;
+    top: 12%;
+}
+/*上中图片*/
+.slide3 .page03_mk02{
+    width: 29.1%;
+    height: 23.6%;
+    position: absolute;
+    left: 35%;
+    top: 12%;
+}
+/*上右图片*/
+.slide3 .page03_mk03{
+width: 29.1%;
+    height: 23.6%;
+    position: absolute;
+    left: 66%;
+    top: 12%;
+}
+/*中右图片*/
+.slide3 .page03_mk04{
+width: 29.1%;
+    height: 23.6%;
+    position: absolute;
+    left: 66%;
+    top: 40%;
+}
+/*下右图片*/
+.slide3 .page03_mk05{
+width: 29.1%;
+    height: 23.6%;
+    position: absolute;
+    left: 66%;
+    top: 68%;
+}
+/*下中图片*/
+.slide3 .page03_mk06{
+width: 29.1%;
+    height: 23.6%;
+    position: absolute;
+    left: 35%;
+    top: 68%;
+}
+/*下左图片*/
+.slide3 .page03_mk07{
+width: 29.1%;
+    height: 23.6%;
+    position: absolute;
+    left: 4%;
+    top: 68%;
+}
+/*中左图片*/
+.slide3 .page03_mk08{
+width: 29.1%;
+    height: 23.6%;
+    position: absolute;
+    left: 4%;
+    top: 40%;
+}
+/*中间的文字*/
+.slide3 .page03_mk09{
+width: 37%;
+height: 5%;
+position: absolute;
+left: 31%;
+top: 50%;
+}
+.slide3 .page03_mk09 b{
+color: black;
+font-family: "微软雅黑";
+    font-size: 88%;
+}
+/*2015数字*/
+.slide3 .page03_mk10{
+width: 29%;
+height: 5%;
+position: absolute;
+left: 35%;
+top: 56.5%;
+}
+.slide3 .page03_mk10 b{
+color: white;
+font-family: "微软雅黑";
+    font-size: 88%;
+}
+/*中间边框*/
+.slide3 .page03_mk11{
+width: 29.1%;
+    height: 23.6%;
+    position: absolute;
+    left: 35%;
+    top: 40%;
+}
+/*中间图片*/
+.slide3 .page03_mk12{
+    width: 9.7%;
+    height: 7.8%;
+    position: absolute;
+    left: 44.5%;
+    top: 41.5%;
+}
+/*=====================微信场景4==============================*/
+/*文字后面的背景图*/
+.slide4 .page04_mk01{
+    width: 100.1%;
+    height: 91.6%;
+    position: absolute;
+    left: 5%;
+    top: 7%;
+}
+
+
+/*右边数起第一列文字*/
+.slide4 .page04_mk02{
+    width: 5%;
+    height: auto;
+    position: absolute;
+    left: 65%;
+    top: 18.5%;
+}
+.slide4 .page04_mk02 div,.slide4 .page04_mk03 div,.slide4 .page04_mk04 div,.slide4 .page04_mk05 div,.slide4 .page04_mk06 div{
+color: rgb(30,30,30);
+font-family: "黑体";
+/*font-size: 0.17rem;*/
+font-weight: 700;
+}
+/*右边数起第2列文字*/
+.slide4 .page04_mk03{
+    width: 5%;
+    height: auto;
+    position: absolute;
+    left: 54%;
+    top: 18.5%;
+}
+/*右边数起第3列文字*/
+.slide4 .page04_mk04{
+    width: 5%;
+    height: auto;
+    position: absolute;
+    left: 43%;
+    top: 18.5%;
+}
+/*右边数起第4列文字*/
+.slide4 .page04_mk05{
+    width: 5%;
+    height: auto;
+    position: absolute;
+    left: 32%;
+    top: 18.5%;
+}
+/*右边数起第5列文字*/
+.slide4 .page04_mk06{
+    width: 5%;
+    height: auto;
+    position: absolute;
+    left: 21%;
+    top: 18.5%;
+}
+/*=====================微信场景5==============================*/
+/*中间背景图01*/
+.slide5 .page05_mk01{
+    width: 147%;
+    height: 99.7%;
+    position: absolute;
+    left: -39%;
+    top: 1%;
+}
+/*中间背景图02*/
+.slide5 .page05_mk02{
+    width: 167.1%;
+    height: 107.6%;
+    position: absolute;
+    left: -39%;
+    top: 9%;
+}
+/*表单*/
+.slide5 .page05_mk03{
+width: 70%;
+    height: 31%;
+    position: absolute;
+    left: 13%;
+    top: 40%;
+}
+/*表单内容*/
+.slide5 .page05_mk03 .forms{
+    margin-bottom: .5rem;
+    display: inline-block;
+    width: 83%;
+    height: 81%;
+}
+.slide5 .page05_mk03 .forms .form00{
+    margin-bottom: 5%;
+    text-align: center;
+    height: 20%;
+}
+/*姓名*/
+.slide5 .page05_mk03 .forms .form00 input{
+display: inline-block;
+    width: 102%;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-size: 35%;
+    border-style: solid;
+    border-color: transparent;
+    height: 85%;
+}
+/*标题*/
+.slide5 .page05_mk04{
+    width: 37%;
+    height: 5%;
+    position: absolute;
+    left: 28%;
+    top: 28%;
+}
+.slide5 .page05_mk04 b{
+    color: white;
+    font-family: "微软雅黑";
+    font-size: 142%;
+}
+
+/*留言板*/
+
+/*.slide5 .page05_mk03{
+width: 70%;
+    height: 31%;
+    position: absolute;
+    left: 13%;
+    top: 40%;
+    background: whitesmoke;
+}
+.slide5 #metor{
+    width: 100%;
+    height: 100%;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
